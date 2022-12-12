@@ -107,6 +107,7 @@ export default function Sidenav() {
     setOpen(false);
   };
 
+  
   return (
     <>
         <Box sx={{ display: 'flex' }}>
@@ -133,7 +134,6 @@ export default function Sidenav() {
             <div className="row w-1">
             <button type="button" className="btn btn-primary">Registrarse</button>
             </div>
-            
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
