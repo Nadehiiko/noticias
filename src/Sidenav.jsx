@@ -25,6 +25,7 @@ import Local from './components/Local';
 import Nacional from './components/Nacional';
 import Internacional from './components/Internacional';
 import Contactanos from './components/Contactanos';
+import Imagen1 from './icons/not2.png';
 
 const drawerWidth = 240;
 
@@ -121,7 +122,7 @@ export default function Sidenav() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h7" noWrap component="div">
-            <img src="./icons/not2.png" height={70} alt="Imagenes"/>
+            <img src={Imagen1} height={70} alt="Imagenes"/>
           </Typography>
           <div className="card-body d-flex">
           Mundo Noticias

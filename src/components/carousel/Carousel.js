@@ -1,4 +1,10 @@
 import React from 'react'
+import cuatro from './../../images/4.png'
+import cinco from './../../images/5.png'
+import seis from './../../images/6.png'
+import siete from './../../images/7.png'
+import ocho from './../../images/8.png'
+import nueve from './../../images/9.png'
 
 const Carousel = () => {
   return (
@@ -11,13 +17,13 @@ const Carousel = () => {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-40" src="./images/4.png" alt="First slide"/>
+      <img className="d-block w-40" src={cuatro} alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-40" src="./images/5.png" alt="Second slide"/>
+      <img className="d-block w-40" src={cinco} alt="Second slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-40" src="./images/6.png" alt="Third slide"/>
+      <img className="d-block w-40" src={seis} alt="Third slide"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -31,21 +37,21 @@ const Carousel = () => {
 </div>
 <div class="card-group">
   <div class="card">
-    <img src="./images/7.png" class="card-img-top" alt="..."/>
+    <img src={siete} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Bio Bio</h5>
       <p class="card-text">De manera indefinida permanecerá suspendido el tránsito ferroviario sobre el río Bío Bío debido a daños sufridos por un pilar del histórico viaducto que conecta ambas riberas del río en Concepción. Alrededor de 30 mil pasajeros son afectados por dicha contingencia.</p>
     </div>
   </div>
   <div class="card">
-    <img src="./images/8.png" class="card-img-top" alt="..."/>
+    <img src={ocho} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Iquique</h5>
       <p class="card-text">El sujeto habría ayudado en la fuga de los sospechosos.</p>
     </div>
   </div>
   <div class="card">
-    <img src="./images/9.png" class="card-img-top" alt="..."/>
+    <img src={nueve} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Viña del Mar</h5>
       <p class="card-text">La superficie afectada es de aproximadamente 70 hectáreas, compuestas de pastizal, matorral y eucaliptus.</p>
