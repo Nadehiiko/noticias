@@ -37,21 +37,21 @@ const Carousel = () => {
 </div>
 <div class="card-group">
   <div class="card">
-    <img src={siete} class="card-img-top" alt="..."/>
+    <a href=''><img src={siete} class="card-img-top" alt="..."/></a>
     <div class="card-body">
       <h5 class="card-title">Bio Bio</h5>
       <p class="card-text">De manera indefinida permanecerá suspendido el tránsito ferroviario sobre el río Bío Bío debido a daños sufridos por un pilar del histórico viaducto que conecta ambas riberas del río en Concepción. Alrededor de 30 mil pasajeros son afectados por dicha contingencia.</p>
     </div>
   </div>
   <div class="card">
-    <img src={ocho} class="card-img-top" alt="..."/>
+    <a href=''><img src={ocho} class="card-img-top" alt="..."/></a>
     <div class="card-body">
       <h5 class="card-title">Iquique</h5>
       <p class="card-text">El sujeto habría ayudado en la fuga de los sospechosos.</p>
     </div>
   </div>
   <div class="card">
-    <img src={nueve} class="card-img-top" alt="..."/>
+    <a href=''><img src={nueve} class="card-img-top" alt="..."/></a>
     <div class="card-body">
       <h5 class="card-title">Viña del Mar</h5>
       <p class="card-text">La superficie afectada es de aproximadamente 70 hectáreas, compuestas de pastizal, matorral y eucaliptus.</p>

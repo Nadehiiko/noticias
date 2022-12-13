@@ -26,6 +26,7 @@ import Nacional from './components/Nacional';
 import Internacional from './components/Internacional';
 import Contactanos from './components/Contactanos';
 import Imagen1 from './icons/not2.png';
+import Recuperacion from './components/Recuperacion';
 
 const drawerWidth = 240;
 
@@ -266,6 +267,33 @@ export default function Sidenav() {
                 <ListItemText primary="Contactanos" />
               </ListItemButton>
             </ListItem>
+            <ListItem disablePadding sx={{ display: 'block' }} onClick={()=>setMenudata("Recuperacion")}>
+              <ListItemButton
+                sx={{
+                  minHeight: 48,
+                  justifyContent: open ? 'initial' : 'center',
+                  px: 2.5,
+                }}
+              >
+                <ListItemIcon
+                  sx={{
+                    minWidth: 0,
+                    mr: open ? 3 : 'auto',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <MdLocalAirport />
+                </ListItemIcon>
+                <ListItemText primary="Recuperacion" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.google.com" class="fa fa-google"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+            </ListItem>
         </List>
         <Divider />
       </Drawer>
@@ -276,6 +304,7 @@ export default function Sidenav() {
                   {menudata === "Nacional" && <Nacional />}
                   {menudata === "Internacional" && <Internacional />}
                   {menudata === "Contactanos" && <Contactanos />}
+                  {menudata === "Recuperacion" && <Recuperacion />}
 
         
       </Box>
